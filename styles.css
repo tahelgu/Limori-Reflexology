@@ -264,7 +264,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible, [tabindex="-1"]:fo
 }
 
 @media (max-width: 600px) {
-  .credentials { background-image: url('images/MMta.png'); background-size: 100% 100%; }
+  .credentials { background-image: url('images/AA.png'); background-size: cover; }
   .credentials { padding: 24px 10px; }
   .credentials { padding-bottom: clamp(36px, calc(25vw - 44px), 102px); }
   .certificate-carousel { padding-inline: 38px; }
