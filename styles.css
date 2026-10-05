@@ -264,13 +264,14 @@ a:focus-visible, button:focus-visible, summary:focus-visible, [tabindex="-1"]:fo
 }
 
 @media (max-width: 600px) {
-  .credentials { background-image: url('images/AA.png'); background-size: cover; }
+  .credentials { background-image: url('images/C.png'); background-size: cover; }
   .credentials { padding: 24px 10px; }
   .credentials { padding-bottom: clamp(36px, calc(25vw - 44px), 102px); }
-  .certificate-carousel { padding-inline: 38px; }
+  .certificate-carousel { padding-inline: 38px; transform: translateY(-70px); }
   .certificate-card { flex-basis: 100%; }
   .certificate-card { grid-template-rows: 569px auto; gap: 59px; }
-  .certificate-frame { padding: 8px; }
+  .certificate-frame { max-width: 71.4%; padding: 8px; align-self: center; }
+  .certificate-caption { transform: translateY(calc(47vw - 380px)); }
   .certificate-arrow { top: 35%; width: 36px; height: 36px; font-size: 20px; }
 }
 
